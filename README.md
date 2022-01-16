@@ -38,32 +38,32 @@ Start of an amazing Life:
 After a short while:
 ![](Demo-Images/end.PNG)
 
-## Common Shapes
+## :diamond_shape_with_a_dot_inside: Common Shapes
 Eventually there will be a feature for common shapes to be selected at the start of a Life.
-### Projectiles
+### :bow_and_arrow: Projectiles
 Glider:
 
 ![](Demo-Images/glider.PNG)
 
-### Still Lives
-Beehive (lively stable):
+### :whale2: Still Lives
+:bee: Beehive (lively stable):
 
 ![](Demo-Images/beehive.PNG)
 
-Block (unstable):
+:black_medium_square: Block (unstable):
 
 ![](Demo-Images/block.PNG)
 
 ### Oscillators
-Blinker (period 2):
+:eyes: Blinker (period 2):
 
 ![](Demo-Images/blinker.PNG)
 
-Toad (period 2):
+:frog: Toad (period 2):
 
 ![](Demo-Images/toad.PNG)
 
-Penta-Decathlon (period 15):
+:runner: Penta-Decathlon (period 15):
 
 ![](Demo-Images/penta-decathlon.PNG)
 
