@@ -26,8 +26,8 @@ There is an arbitrarily-sized (or inifite) grid of cells that is either dead or 
 * Infinite universe option
 
 ## :brain: The Logics and Implmenetation
-* This program uses a space-efficient, in-place 2-bit state matrix to store the current and next state (each one bit) at each iteration.
-* Look at `script.js` in `JS` for details on the logic. The code is realtively thoroughly explained.
+* This program uses a space-efficient, **in-place 2-bit state matrix** to store the current and next state (each one bit) at each iteration.
+* Look at `JS/script.js` for details on the logic. The code is realtively thoroughly explained.
 * The GUI was powered by the `P5.js` library, available [here](https://p5js.org/).
 ## :eyeglasses: Demo
 Stay tuned for the live site, the best demo possible :)
