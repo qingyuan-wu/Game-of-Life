@@ -1,6 +1,6 @@
 # :chipmunk: Game of Life
 
-A visualizer for Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Customize and start your cell life today! Live site coming soon...
+A visualizer for Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). A Turing-Complete not-so-game 0-player game. Customize and start your cell life today! Live site coming soon...
 
 ## :books: Rules
 There is an arbitrarily-sized (or inifite) grid of cells that is either dead or alive. At the next cycle, each cell may change its livelihood based on these simple rules:
@@ -11,7 +11,7 @@ There is an arbitrarily-sized (or inifite) grid of cells that is either dead or 
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 [Source](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-## :star: Features
+## :star: Present Features
 * Large 40 by 60 grid
 * Quick and easy setup - *drag* to select multiple cells
 * Dynamic addition of individual cells after the start of the simulation
@@ -54,7 +54,7 @@ Glider:
 
 ![](Demo-Images/block.PNG)
 
-### Oscillators
+### :infinity: Periodic Oscillators
 :eyes: Blinker (period 2):
 
 ![](Demo-Images/blinker.PNG)
