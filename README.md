@@ -1,6 +1,8 @@
 # :chipmunk: Game of Life
 
-A visualizer for Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). A Turing-Complete not-so-game 0-player game. Customize and start your cell life today! Live site coming soon...
+A visualizer for Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). A Turing-Complete not-so-game 0-player game. Play now!!!
+
+https://gameoflife-visualizer.herokuapp.com/
 
 ## :books: Rules
 There is an arbitrarily-sized (or inifite) grid of cells that is either dead or alive. At the next cycle, each cell may change its livelihood based on these simple rules:
