@@ -1,0 +1,23 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "A visualizer for Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). A Turing-Complete not-so-game 0-player game. Customize and start your cell life today! Live site coming soon...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingyuan-wu/Game-of-Life.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qingyuan-wu/Game-of-Life/issues"
+  },
+  "homepage": "https://github.com/qingyuan-wu/Game-of-Life#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
