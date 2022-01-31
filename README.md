@@ -4,6 +4,9 @@ A visualizer for Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27
 
 https://gameoflife-visualizer.herokuapp.com/
 
+## Contribute
+Please consider contributing to this project by adding some features that I listed below, or implement your own feature!
+
 ## :books: Rules
 There is an arbitrarily-sized (or inifite) grid of cells that is either dead or alive. At the next cycle, each cell may change its livelihood based on these simple rules:
 
