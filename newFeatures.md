@@ -9,3 +9,4 @@
   * cols/rows
   * grid size
 * Add slider
+* ISSUE: buttons don't work in p5

@@ -1,10 +1,12 @@
-const cols = 60;
-const rows = 40;
 const size = 15; //length and width
 
 function setup() {
     // height, width of canvas
     createCanvas(cols*size,rows*size);
+    // rows = createInput();
+    // cols = createInput();
+    //button = createButton('Go!');
+
     //cannot declare var gameStarted (want global)
     
     const buttonStart = createButton("Start Life");
@@ -60,12 +62,10 @@ function draw(){
         wait(10); // input: Hz frequency
         
     }
-    if (paused) {
-        
+    if (paused) { 
         paused = false;
         noLoop();
     } 
-
 
     function update() {
         // rect(from left, from top, width, length)
@@ -76,9 +76,9 @@ function draw(){
                 //scale: 0 is black, 256 is white
                 // can also do rgb
                 if(cells[i][j]) {
-                    fill(20, 40, 145);                    
+                    fill(40, 40, 175);                    
                 } else {
-                    fill(100);
+                    fill(0, 150,150);
                 }
                 rect(fromLeft, fromTop, size, size);
             }
@@ -104,7 +104,6 @@ function mousePressed() {
     }
 }
 
-
 function mouseReleased() {
     locked = false;
 }
@@ -115,7 +114,7 @@ function mouseDragged() {
         const fromLeft = floor(mouseX/size); // distance from left
         cells[fromLeft][fromTop] = 1; // set alive
     }
-  }
+}
 
 function wait(frequency) {
     let period = (1000/frequency); // period in ms

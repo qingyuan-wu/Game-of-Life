@@ -3,11 +3,15 @@
     <head>
         <!-- <style rel="stylesheet" href="CSS/styles.css"></style> -->
         <script src="JS/p5.min.js"></script>
+        <script src="JS/settings.js"></script>
         <script src="JS/script.js"></script>
 
         <style>
             * {
-                margin:0;
+                box-sizing: border-box;
+            }
+            body {
+                margin:10px;
             }
             #description {
                 margin-bottom:20px;
@@ -15,16 +19,27 @@
             h1 {
                 margin-bottom:20px;
             }
+            button {
+                background-color: aqua;
+                border:none;
+                border-radius:4px;
+                padding:3px;
+                margin-right:10px;
+            }
+
+            button:hover{
+                background-color:aquamarine;
+                cursor:pointer;
+            }
         </style>
     </head>
 
     <body>
         <h1>Game of Life</h1>
-        <div id="description">Welcome to Game of Life. Start your life now by clicking on the starting state of living cells. Currently <strong>all cells are dead :/</strong>
-        <hr>
-        <div>hmm... Click and drag to bring some cells to life! You can read the simple rules <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">here</a>.</div>
+        <div id="description">
+            Welcome to Game of Life. Start your life now by clicking on the starting state of living cells. Currently <strong>all cells are dead</strong>
+            <div>Hmm... Click and drag to bring some cells to life! You can read the simple rules <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">here</a>.</div>
         </div>
-
 
     </body>
 </html>
